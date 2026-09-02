@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Native extension build artifacts
+build/
+dist/
+*.o
+*.obj
+*.ninja
+.ninja_*
+
+# Virtual environments and editor settings
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+*.swp
+
+# Datasets (keep preparation code, metadata, and split files)
+data/scannetv2/train/
+data/scannetv2/val/
+data/scannetv2/test/
+data/scannetv2/*.pth
+data/scannetv2/*.npy
+/dataset/
+
+# Model weights and experiment artifacts
+checkpoints/
+outputs/
+exps*/
+logs/
+runs/
+wandb/
+*.pth
+*.pt
+*.ckpt
+events.out.tfevents.*
+
+# Generated predictions and visualizations
+results/
+predictions/
+visualization/pyviz3d/*.bin
+visualization/pyviz3d/nodes.json
+
+# OS files
+.DS_Store
+Thumbs.db

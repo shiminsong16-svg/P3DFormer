@@ -1,0 +1,14 @@
+# Install PyTorch, torchvision, torch-scatter, spconv, and CUDA separately;
+# their versions must match the CUDA toolkit used to compile the custom ops.
+gorilla-core
+numba
+numpy
+open3d
+opencv-python
+plyfile
+scikit-learn
+scipy
+timm
+tqdm
+trimesh
+yapf
